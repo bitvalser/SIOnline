@@ -21,6 +21,8 @@ import localization from './model/resources/localization';
 import ServerInfo from './model/server/ServerInfo';
 
 declare const config: Config;
+declare const config1: Config;
+declare const config2: Config;
 
 function setState(state: State, savedState: SavedState | null, gameId: string | null): State {
 	if (!savedState) {
